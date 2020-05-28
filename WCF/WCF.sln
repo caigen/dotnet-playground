@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{4A8DB8C6-E326-47BB-A960-7F46C601A4A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{757872F4-07CF-404D-872D-72C06DCFB1E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B96BD624-1986-4605-BEE2-92458F7C178C} = {B96BD624-1986-4605-BEE2-92458F7C178C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
